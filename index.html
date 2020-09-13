@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Lesson 4</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <label class="label-1">
+                <button class="btn__clean" onclick="resetFunction1()">Clear</button>
+                <textarea type="text" id="text__before"></textarea>
+            </label>
+        </div>
+
+        <div class="box">
+            <label class="label__convert">
+                <button class="btn__convert">Convert</button>
+            </label>
+        </div>
+
+        <div class="box">
+            <label class="label-3">
+                <button class="btn__reset-2">Clear</button>
+                <form action="#">
+                    <select name="color" id="color">
+                        <option value="black">Black</option>
+                        <option value="red"></option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </form>
+            </label>
+            <div class="result__box">
+                <span class="result__text"></span>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
